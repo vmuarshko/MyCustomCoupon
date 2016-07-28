@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="edit_email">Email</string>
+    <string name="edit_password">Password</string>
+    <string name="edit_password2">Confirm Password</string>
+    <string name="radio_consumer">Consumer</string>
+    <string name="radio_merchant">Merchant</string>
+    <string name="register_button_text">Next</string>
+    <!-- Address Strings -->
+    <string name="edit_address1">Address 1</string>
+    <string name="edit_address2">Address 2</string>
+    <string name="edit_city">City</string>
+    <string name="edit_state">State</string>
+    <string name="edit_zipcode">Zip</string>
+    <!-- Business Data Strings -->
+    <string name="edit_business_name">Business Name</string>
+    <string name="edit_tagline">Tagline</string>
+    <string name="edit_website">Website</string>
+    <string name="edit_phone">Phone Number</string>
+    <string name="edit_license">Business License Number</string>
+    <string name="edit_associate_license">Associate License Number</string>
+    <string name="edit_email_notifications">Notifications by Email</string>
+    <string name="edit_apns_notifications">Notifications by Text Message</string>
+    <string name="edit_default_restrictions">Default Restrictions</string>
+</resources>

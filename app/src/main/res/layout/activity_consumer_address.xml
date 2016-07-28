@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edit_address1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/input_height"
+        android:background="@drawable/mcc_edittext"
+        android:hint="@string/edit_zipcode"
+        android:inputType="number"
+        android:padding="@dimen/edittext_padding" />
+
+    <Button
+        android:id="@+id/register1_button"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/input_height"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/register_button"
+        android:onClick="tryMerchantData"
+        android:text="@string/register_button_text" />
+</LinearLayout>

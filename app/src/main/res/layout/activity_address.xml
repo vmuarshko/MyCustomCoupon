@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:background="#000000">
+    <Button android:id="@+id/getLocation"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/input_height"
+        android:text="@string/location_button_text"
+        android:background="@drawable/register_button"
+        android:onClick="getLocation" />
+    <EditText android:id="@+id/edit_address1"
+        android:inputType="textPostalAddress"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/input_height"
+        android:hint="@string/edit_address1"
+        android:background="@drawable/mcc_edittext"
+        android:padding="@dimen/edittext_padding" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/app_dark_blue"
+        android:alpha="1"
+        android:layout_alignParentBottom="true" />
+    <!--<EditText android:id="@+id/edit_address2"-->
+        <!--android:inputType="textPostalAddress"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="@dimen/input_height"-->
+        <!--android:hint="@string/edit_address2"-->
+        <!--android:background="@drawable/mcc_edittext"-->
+        <!--android:padding="@dimen/edittext_padding" />-->
+    <!--<View-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="1dp"-->
+        <!--android:background="@color/app_dark_blue"-->
+        <!--android:alpha="1"-->
+        <!--android:layout_alignParentBottom="true" />-->
+    <EditText android:id="@+id/edit_city"
+        android:inputType="textPostalAddress"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/input_height"
+        android:hint="@string/edit_city"
+        android:background="@drawable/mcc_edittext"
+        android:padding="@dimen/edittext_padding" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/app_dark_blue"
+        android:alpha="1"
+        android:layout_alignParentBottom="true" />
+    <EditText android:id="@+id/edit_state"
+        android:inputType="none"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/input_height"
+        android:hint="@string/edit_state"
+        android:background="@drawable/mcc_edittext"
+        android:padding="@dimen/edittext_padding" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/app_dark_blue"
+        android:alpha="1"
+        android:layout_alignParentBottom="true" />
+    <EditText android:id="@+id/edit_zipcode"
+        android:inputType="textPostalAddress"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/input_height"
+        android:hint="@string/edit_zipcode"
+        android:background="@drawable/mcc_edittext"
+        android:padding="@dimen/edittext_padding" />
+
+<Button android:id="@+id/register1_button"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/input_height"
+    android:text="@string/register_button_text"
+    android:background="@drawable/register_button"
+    android:onClick="submitAddress" />
+</LinearLayout>

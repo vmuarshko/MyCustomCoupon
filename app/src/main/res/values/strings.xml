@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Custom Coupon</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_consumer_address">ConsumerAddress</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+    <!-- Activity Strings -->
+    <string name="title_coupon_list">Coupons</string>
+    <string name="title_coupon_detail">Coupon Detail</string>
+    <string name="title_request_list">Requests</string>
+    <string name="title_request_detail">Request Detail</string>
+    <string name="title_activity_report">Report Activity</string>
+    <!-- Business Data Strings -->
+    <string name="business_data_business_name">business_name</string>
+    <string name="busienss_data_tagline">tagline</string>
+    <string name="business_data_website">website</string>
+    <string name="business_data_license_number">license_ndat</string>
+    <string name="business_data_associate_license_number">associate_license</string>
+    <string name="business_data_phone_number">phone_number</string>
+    <string name="business_data_default_restrictions">default_restrictions</string>
+    <!-- Request Strings-->
+    <string name="request_text">request_text</string>
+    <string name="request_date">request_date</string>
+    <string name="custom_coupons_available">Custom Coupons: </string>
+    <string name="view_coupons">View Coupons</string>
+    <string name="delete">Delete</string>
+    <string name="flag">Flag</string>
+    <!-- Coupon Strings -->
+    <string name="coupon_text">coupon text</string>
+    <string name="coupon_restrictions_title">Restrictions Title</string>
+    <string name="coupon_restrictions_text">Restrictions Text</string>
+    <string name="coupon_start_date">Start Date</string>
+    <string name="coupon_end_date">End Date</string>
+    <string name="coupon_service_type">Service Type</string>
+    <!-- Report Strings -->
+    <string name="coupons_requested_title">Coupons Requested</string>
+    <string name="coupons_created_title">Coupons Created</string>
+    <string name="coupons_public_title">Public Coupons</string>
+    <string name="coupons_private_title">Private Coupons</string>
+    <string name="coupons_requested_value">0</string>
+    <string name="coupons_created_value">0</string>
+    <string name="coupons_public_value">0</string>
+    <string name="coupons_private_value">0</string>
+</resources>
+
+

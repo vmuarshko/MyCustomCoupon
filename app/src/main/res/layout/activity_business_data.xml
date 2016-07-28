@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#000000">
+            <EditText android:id="@+id/edit_businessname"
+                android:inputType="none"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/input_height"
+                android:hint="@string/edit_business_name"
+                android:background="@drawable/mcc_edittext"
+                android:padding="@dimen/edittext_padding" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/app_dark_blue"
+                android:alpha="1"
+                android:layout_alignParentBottom="true" />
+            <EditText android:id="@+id/edit_tagline"
+                android:inputType="none"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/input_height"
+                android:hint="@string/edit_tagline"
+                android:background="@drawable/mcc_edittext"
+                android:padding="@dimen/edittext_padding" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/app_dark_blue"
+                android:alpha="1"
+                android:layout_alignParentBottom="true" />
+            <EditText android:id="@+id/edit_website"
+                android:inputType="none"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/input_height"
+                android:hint="@string/edit_website"
+                android:background="@drawable/mcc_edittext"
+                android:padding="@dimen/edittext_padding" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/app_dark_blue"
+                android:alpha="1"
+                android:layout_alignParentBottom="true" />
+            <EditText android:id="@+id/edit_phone"
+                android:inputType="none"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/input_height"
+                android:hint="@string/edit_phone"
+                android:background="@drawable/mcc_edittext"
+                android:padding="@dimen/edittext_padding" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/app_dark_blue"
+                android:alpha="1"
+                android:layout_alignParentBottom="true" />
+            <EditText android:id="@+id/edit_license"
+                android:inputType="none"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/input_height"
+                android:hint="@string/edit_license"
+                android:background="@drawable/mcc_edittext"
+                android:padding="@dimen/edittext_padding" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/app_dark_blue"
+                android:alpha="1"
+                android:layout_alignParentBottom="true" />
+            <EditText android:id="@+id/edit_assocaite_license"
+                android:inputType="none"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/input_height"
+                android:hint="@string/edit_associate_license"
+                android:background="@drawable/mcc_edittext"
+                android:padding="@dimen/edittext_padding" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/app_dark_blue"
+                android:alpha="1"
+                android:layout_alignParentBottom="true" />
+            <Switch
+                android:id="@+id/email_switch"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="10dp"
+                android:text="@string/edit_email_notifications" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/app_dark_blue"
+                android:alpha="1"
+                android:layout_alignParentBottom="true" />
+            <Switch
+                android:id="@+id/apns_switch"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="10dp"
+                android:text="@string/edit_apns_notifications" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/app_dark_blue"
+                android:alpha="1"
+                android:layout_alignParentBottom="true" />
+            <EditText
+                android:id="@+id/edit_restrictions"
+                android:inputType="textMultiLine"
+                android:lines="8"
+                android:minLines="6"
+                android:gravity="top|left"
+                android:maxLines="10"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:scrollbars="vertical"
+                android:layout_marginLeft="10dp"
+                android:hint="@string/edit_default_restrictions"/>
+
+
+            <Button android:id="@+id/register1_button"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/input_height"
+                android:text="@string/register_button_text"
+                android:background="@drawable/register_button"
+                android:onClick="submitBusinessData" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
